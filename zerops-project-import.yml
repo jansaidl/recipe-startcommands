@@ -1,0 +1,10 @@
+project:
+  name: recipe-startCommands
+  tags:
+    - zerops-recipe
+
+services:
+  - hostname: app
+    type: alpine@3.20
+    enableSubdomainAccess: true
+    buildFromGit: https://github.com/jansaidl/recipe-startcommands
